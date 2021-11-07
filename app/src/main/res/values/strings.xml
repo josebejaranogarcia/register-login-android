@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PAC_UF2_BejaranoJose</string>
+    <string name="todo" translatable="false">TODO</string>
+    <!--Campos-->
+    <string name="user">user</string>
+    <string name="password">password</string>
+    <string name="name">name</string>
+    <string name="surname">surname</string>
+    <string name="email">email</string>
+    <!--Titulos-->
+    <string name="signin_msg">Sign in to my PAC</string>
+    <string name="bienvenidos">Welcome to my PAC </string>
+    <string name="createaccount">Create your account:</string>
+    <string name="hola">Welcome</string>
+    <!--Textos de los Botones -->
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign Up</string>
+    <string name="register">Create your account</string>
+    <string name="see_all">See all records\nin Android console</string>
+    <string name="delete_all">Delete all records</string>
+    <!--Enlaces-->
+    <string name="develop">Development options</string>
+    <!--Mensajes para los Toast-->
+    <string name="logExito">Login successfully</string> <!-- login successful-->
+    <string name="regExito">Registered successfully!!</string><!-- register successful-->
+    <string name="userExists">User already exists</string>
+    <string name="noValido">Invalid username or password</string>
+    <string name="rellenarCampos">You must complete the fields</string>
+    <string name="startServ">Service started</string>
+    <string name="stopServ">Service ended</string>
+    <string name="email_no_valido">Email is not valid</string>
+    <string name="check_fields">Name, surname and user must have\n
+ among 4 and 15 alphanumeric characters</string>
+    <string name="check_pass">Password must have\n among 4 and 15 characters</string>
+</resources>

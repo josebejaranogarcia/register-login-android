@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/introduce"
+        tools:context=".Registro"
+        style="@style/contenedor">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/marco"
+                style="@style/introduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/mensaje"
+                    style="@android:style/Widget.DeviceDefault.Light.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/createaccount"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="28sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.032" />
+
+            <EditText
+                    android:id="@+id/apellido"
+                    style="@style/record"
+                    android:layout_width="260dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:autofillHints=""
+                    android:hint="@string/surname"
+                    android:inputType="textPersonName"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/nombre"
+                    tools:targetApi="lollipop" />
+
+            <EditText
+                    android:id="@+id/usuario"
+                    style="@style/record"
+                    android:layout_width="260dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginEnd="32dp"
+                    android:autofillHints=""
+                    android:hint="@string/user"
+                    android:inputType="textPersonName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mensaje"
+                    tools:targetApi="lollipop" />
+
+            <EditText
+                    android:id="@+id/nombre"
+                    style="@style/record"
+                    android:layout_width="260dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="36dp"
+                    android:autofillHints=""
+                    android:hint="@string/name"
+                    android:inputType="textPersonName"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mensaje"
+                    tools:targetApi="lollipop" />
+
+            <Button
+                    android:id="@+id/signUp"
+                    style="@style/MiEstiloBtn"
+                    android:layout_width="270dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@drawable/boton2"
+                    android:onClick="signup"
+                    android:text="@string/register"
+                    android:textColor="@color/colorPrimaryDark"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contrasenia" />
+
+            <EditText
+                    android:id="@+id/email"
+                    style="@style/record"
+                    android:layout_width="260dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="32dp"
+                    android:autofillHints=""
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/apellido"
+                    tools:targetApi="lollipop" />
+
+            <EditText
+                    android:id="@+id/contrasenia"
+                    style="@style/record"
+                    android:layout_width="260dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:autofillHints=""
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/usuario"
+                    tools:targetApi="lollipop" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

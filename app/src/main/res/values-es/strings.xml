@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PAC_UF2_BejaranoJose</string>
+    <string name="user">usuario</string>
+    <string name="password">contraseña</string>
+    <string name="name">nombre</string>
+    <string name="surname">apellido</string>
+    <string name="email">email</string>
+    <string name="bienvenidos">Bienvenidos a mi PAC</string>
+    <string name="createaccount">Crea tu cuenta:</string>
+    <string name="hola">Bienvenid@</string>
+    <string name="signup">Registro</string>
+    <string name="signin">Inicia sesión</string>
+    <string name="register">Crea tu cuenta</string>
+    <string name="see_all">Ver registros en la consola de AS</string>
+    <string name="delete_all">Borrar todos los registros</string>
+    <string name="develop">Opciones de desarrollo</string>
+    <string name="logExito">Se ha logueado con éxito!!</string>
+    <string name="regExito">Registro exitoso!!</string>
+    <string name="userExists">El usuario ya existe</string>
+    <string name="noValido">Nombre de usuario o contraseña incorrectos</string>
+    <string name="rellenarCampos">Debe completar los campos</string>
+    <string name="startServ">Servicio iniciado</string>
+    <string name="stopServ">Servicio Finalizado</string>
+    <string name="signin_msg">Inicia sesión en mi PAC</string>
+    <string name="email_no_valido">El correo electrónico no es válido</string>
+    <string name="check_fields">El nombre, el apellido y el usuario deben\n
+ entre 4 y 15 carácteres alfanúmericos</string>
+    <string name="check_pass">La contraseña debe tener entre 4 y 15 carácteres</string>
+</resources>
